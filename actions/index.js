@@ -3,7 +3,7 @@ const apiKey = 'foobar'
 export const loadRoom = () => {
     return (dispatch) => {
         console.log('Loaded room info')
-        
+
         fetch(`https://houmkolmonen.herokuapp.com/api/site/${apiKey}`,
             {
                 headers: {
