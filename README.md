@@ -4,7 +4,8 @@ This is a simple light switch app that works with Mount Kelvin's Houm API.
 
 ## Installing
 
-`npm install`
+1. `npm install`
+2. Change the apiKey variable in `actions/index.js`
 
 ## Running
 
